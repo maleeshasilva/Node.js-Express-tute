@@ -5,5 +5,6 @@ http.createServer(function(req,res){
 	
 }).listen(8080);
 console.log("nodejs server is listning");
-mod().func1();
-mod().func2(); 
+mod.func1();
+console.log(mod.myvar); 
+console.log(mod);
